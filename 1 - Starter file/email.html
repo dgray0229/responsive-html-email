@@ -5,7 +5,7 @@
 		<title>Our Vineyard</title>
 		<style type="text/css">
 			/* css goes here */
-            
+            @import url('https://fonts.googleapis.com/css?family=Satisfy');
             body { margin: 0; padding: 0; }
             
             @media only screen and (max-width: 660px) {
@@ -39,6 +39,9 @@
                 td.callout table.callout_2 td { padding: 0px 20px 0px 60px !important; background: url(images/icon_bottle.gif) no-repeat 10px -3px; }
                 td.callout table.callout_3 td {padding: 0px 30px 0px 60px !important; background: url(images/icon_basket.gif) no-repeat 0px -13px; clear: left;  }
                 td.callout table.callout_4 td { padding: 0px 20px 0px 60px !important; background: url(images/icon_camera.gif) no-repeat 10px -23px; }
+                
+                video { width: 416px !important; height: 312px !important; }
+                video img { width: 416px !important; height: 312px !important; }
             }
             @media only screen and (max-width: 510px) {
                 table.container td { border: none !important; }
@@ -67,6 +70,9 @@
                 td.callout table.callout_3 td { background-position: 0px -7px; }
                 td.callout table.callout_4 td { background-position: 4px -17px; }
                 td.callout table br.spacer { display: inline; }
+                
+                video { width: 300px !important; height: 255px !important; }
+                video img { width: 300px !important; height: 255px !important; }
             }
 		</style>
 	</head>	
@@ -90,7 +96,7 @@
 <!--		                Second Table Row  - Headline         -->
 		                <tr>
 		                    <td valign="top" class="headline" bgcolor="#ffffff" style="padding: 15px 20px 5px 30px; border-left: 1px solid #dbc064; border-right: 1px solid #dbc064; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px;">
-                                <h1 style="margin: 0 0 15px 0; font-weight: normal; font-size: 32px; color: #723c7f">Main Heading Here</h1>
+                                <h1 style="margin: 0 0 15px 0; font-family: 'Satisfy', Arial; font-weight: normal; font-size: 32px; color: #723c7f">Main Heading Here</h1>
                             </td>
 		                </tr>
 <!--		                Third Table Row  - Banner            -->
@@ -121,6 +127,10 @@
 		                <tr>
 		                    <td valign="top" bgcolor="#f5f2e5" class="promos" style="padding: 10px 30px 25px 30px; border-right:1px solid #dbc064; border-left:1px solid #dbc064; background-color: #f5f2e5; font-family: Arial, Helvetica, sans-serif;">
 <!--                            Promo Table                 -->
+                                <video width="570" height="428" poster="video/our_vineyard.jpg" controls="controls">
+                                    <source src="video/our_vineyard.mp4" type="video/mp4">
+                                    <a href="http://yoursite.com/video.html"><img src="video/our_vineyard.jpg" alt="video" /></a>
+                                </video>
 		                        <table class="promo_1" width="270" align="left">
 		                            <tr>
 		                                <td>
